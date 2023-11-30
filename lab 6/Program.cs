@@ -20,8 +20,7 @@ namespace Lab6
             {
                 S = S + A;
                 N += 1;
-                A = A* N * N / ((N + 1) * (N + 1));
-                Console.WriteLine(A);
+                A = A* N * N / ((N + 1) * (N +1));
             }
             while (A >= eps);
             Console.WriteLine($"Сумма членов ряда S={S}число итераций N={N}");
